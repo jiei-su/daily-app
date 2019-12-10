@@ -1,0 +1,49 @@
+/* ====================
+        weather
+==================== */
+
+main {
+    background: rgb(245,245,245);
+}
+
+/* ==== current ==== */
+.current {
+    padding: 0 0 2rem;
+    text-align: center;
+}
+.current-temp {
+    font-size: 6rem;
+}
+.current-comment {
+    font-size: 2rem;
+}
+
+/* ==== list ==== */
+.list {
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+}
+.list::-webkit-scrollbar{
+    display:none;
+}
+.time-unit {
+    padding: 1rem 2rem;
+}
+.time, .temp {
+    text-align: center;
+    font-size: 2rem;
+}
+.icon img {
+    width: 140px;
+    height: 140px;
+}
+@media screen and (max-width: 480px) {
+    .icon img {
+        width: 80px;
+        height: 80px;
+    }
+}

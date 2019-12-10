@@ -1,0 +1,72 @@
+/* ====================
+        commmon
+==================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: serif;
+}
+html {
+    font-size: 16px;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+/* ==== header ==== */
+header {
+    border-bottom: 2px solid #ddd;
+}
+#headWrap {
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+/* ==== main ==== */
+section {
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+.leadText {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* ==== footer ==== */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.4rem;
+}
+#footerWrap {
+    display: flex;
+    justify-content: center;
+}
+.footerList {
+    width: calc(100%/3);
+    background: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    border: 1px solid #ddd;
+}
+.footerList.current-href {
+    background: blue;
+}
+.footerList a {
+    display: block;
+    color: #333;
+}
+.footerList.current-href a {
+    color: #fff;
+}
